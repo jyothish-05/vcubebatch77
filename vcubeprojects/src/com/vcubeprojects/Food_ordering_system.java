@@ -54,7 +54,7 @@ public class Food_ordering_system {
 		 System.out.println("Thank you,for visiting");
 		
 		
-		
+		sc.close();
 
 	}
 
