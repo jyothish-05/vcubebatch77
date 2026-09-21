@@ -11,11 +11,14 @@ public class Nloop {
 		sc.close();
 	}
 	static void nNumbers(int n) {
+		int sum = 0;
 		for(int i = 1;i<=n;i++) {
+			sum = sum + i;
+			System.out.println(sum);
 			
 		}
-			if(n%3 == 0 && n%5 == 0) {
-				System.out.println("the given number is divisible by 3 ana 5");
+			if(sum%3 == 0 && sum%5 == 0) {
+				System.out.println("the given number is divisible by 3 and 5");
 			}else {
 				System.out.println("the given number is not divisible");
 			}
